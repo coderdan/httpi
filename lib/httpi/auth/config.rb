@@ -60,7 +60,8 @@ module HTTPI
 
       # Only available with the httpi-ntlm gem.
       def ntlm?
-        raise "Install the httpi-ntlm gem for experimental NTLM support"
+        #raise "Install the httpi-ntlm gem for experimental NTLM support"
+        false
       end
 
       # Returns the <tt>HTTPI::Auth::SSL</tt> object.

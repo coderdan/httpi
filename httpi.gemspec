@@ -8,11 +8,11 @@ Gem::Specification.new do |s|
   s.version     = HTTPI::VERSION
   s.authors     = ["Daniel Harrington", "Martin Tepper"]
   s.email       = "me@rubiii.com"
-  s.homepage    = "http://github.com/rubiii/#{s.name}"
+  s.homepage    = "http://github.com/coderdan/httpi"
   s.summary     = "Interface for Ruby HTTP libraries"
-  s.description = "HTTPI provides a common interface for Ruby HTTP libraries."
+  s.description = "HTTPI provides a common interface for Ruby HTTP libraries. Coderdan's fork with EM-HTTP support (thanks to RISCfuture)"
 
-  s.rubyforge_project = s.name
+  s.rubyforge_project = "httpi"
 
   s.add_dependency "rack"
 
